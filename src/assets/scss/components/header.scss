@@ -1,0 +1,70 @@
+.main-header{
+    background-color: $primary-dark;
+    padding: 12px 0;
+
+    &__logo{
+        a{
+            color: $white;
+            font-weight: $fw-black;
+            font-size: 24px;
+
+            span{
+                color: $contrast;
+            }
+        }
+    }
+
+    &__links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 24px;
+        margin: 0;
+
+        @media (max-width: $md) {
+            display: none;
+        }
+
+        li{
+            a{
+                color: $white;
+                font-weight: $fw-medium;
+                font-size: 16px;
+                @extend .red-underline;
+            }
+        }
+    }
+
+    &__menu-btn{
+        display: none;
+        
+        @media (max-width: $md) {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        button{
+            color: $white;
+            font-size: 24px;
+        }
+    }
+
+    &__offcanvas{
+        max-width: 270px;
+        background-color: $primary;
+
+        .close{
+            font-size: 24px;
+            color: $white;
+        }
+
+        .main-header__links{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0;
+        }
+    }
+}

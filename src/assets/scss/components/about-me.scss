@@ -1,0 +1,72 @@
+.about-me{
+    padding-top: 70px;
+
+    @media (max-width: $md) {
+        padding-top: 40px;
+    }
+    
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+
+        @media (max-width: $md) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__figure{
+        width: 168px;
+        
+        img{
+            width: 100%;
+            aspect-ratio: 1;
+            border-radius: 100%;
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+        }
+    }
+
+    &__content{
+        max-width: 468px;
+        color: $white;
+
+        @media (max-width: $md) {
+            max-width: 100%;
+        }
+
+        h1{
+            margin-bottom: 8px;
+            font-size: 35px;
+            font-weight: $fw-black;
+            line-height: normal;
+
+            @media (max-width: $md) {
+                font-size: 28px;
+                text-align: center;
+                line-height: 1.25;
+            }
+
+            br{
+                display: none;
+            }
+
+            span{
+                color: $contrast;
+            }
+        }
+        
+        p{
+            font-size: 19px;
+            color: $primary-light;
+            line-height: normal;
+
+            @media (max-width: $md) {
+                font-size: 16px;
+                text-align: center;
+                line-height: 1.5;
+            }
+        }
+    }
+}

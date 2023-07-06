@@ -33,3 +33,8 @@ npm run build
 ```sh
 npm run lint
 ```
+
+1. In you local repository run this command: npm run build
+2. git add dist -f
+3. git commit -m [your commit message here]
+4. git subtree push --prefix dist origin gh-pages

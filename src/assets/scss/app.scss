@@ -1,11 +1,11 @@
-$red: red;
+// base
+@import 'base/reset.scss';
+@import 'base/grid.scss';
+@import 'base/colors.scss';
+@import 'base/typography.scss';
+@import 'base/global.scss';
 
-h1{
-    color: red;
-}
-
-.about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+// components
+@import 'components/header.scss';
+@import 'components/about-me.scss';
+@import 'components/skill-set.scss';
