@@ -1,5 +1,6 @@
 <script setup>
 import AboutMe from '../components/about-me/AboutMe.vue'
+import RecentWork from '../components/recent-works/RecentWorks.vue'
 import SkillSet from '../components/skill-set/SkillSet.vue'
 import TheWelcome from '../components/TheWelcome.vue'
 
@@ -9,5 +10,6 @@ import TheWelcome from '../components/TheWelcome.vue'
   <main>
     <AboutMe />
     <SkillSet />
+    <RecentWork />
   </main>
 </template>

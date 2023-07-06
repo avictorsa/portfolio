@@ -12,7 +12,7 @@
                 <ul class="col-6 main-header__links">
                     <li><a href="#aboutMe">About me</a></li>
                     <li><a href="#skillSet">Skill-set</a></li>
-                    <li><a href="#">Recent works</a></li>
+                    <li><a href="#recentWork">Recent works</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <div class="col-6 main-header__menu-btn">
@@ -27,10 +27,10 @@
                     </div>
                     <div class="offcanvas-body">
                         <ul class="main-header__links">
-                            <li><a href="#aboutMe">About me</a></li>
-                            <li><a href="#skillSet">Skill-set</a></li>
-                            <li><a href="#">Recent works</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#aboutMe" type="button">About me</a></li>
+                            <li><a href="#skillSet" type="button">Skill-set</a></li>
+                            <li><a href="#recentWork" type="button">Recent works</a></li>
+                            <li><a href="#" type="button">Contact</a></li>
                         </ul>
                     </div>
                 </div>

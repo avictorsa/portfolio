@@ -71,4 +71,38 @@
             }
         }
     }
+
+    .languages {
+        tr{
+            &:first-child{
+                td{
+                    padding-top: 0;
+                }
+            }
+
+            td {
+                padding: 8px 0;
+                color: $white;
+                font-size: 16px;
+    
+                .score {
+                    display: flex;
+                    padding-left: 16px;
+                    transform: translateY(3px);
+    
+                    span {
+                        width: 14px;
+                        height: 14px;
+                        margin-right: 10px;
+                        border-radius: 100%;
+                        background-color: $contrast;
+    
+                        &.disabled {
+                            opacity: 0.2;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

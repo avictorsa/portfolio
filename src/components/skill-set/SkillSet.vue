@@ -83,12 +83,6 @@
                         </li>
                         <li>
                             <figure>
-                                <img src="../../assets/images/icons/html.svg" alt="html">
-                            </figure>
-                            <p>HTML</p>
-                        </li>
-                        <li>
-                            <figure>
                                 <img src="../../assets/images/icons/unity.svg" alt="unity">
                             </figure>
                             <p>Unity</p>
@@ -107,6 +101,37 @@
                         <li><strong>Responsive</strong> web design</li>
                         <li>Attentive to <strong>details</strong></li>
                     </ul>
+
+                    <h3 class="section-subtitle">Languages</h3>
+
+                    <table class="languages">
+                        <tbody>
+                            <tr>
+                                <td>Portuguese</td>
+                                <td>
+                                    <div class="score">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>English</td>
+                                <td>
+                                    <div class="score">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span class="disabled"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
