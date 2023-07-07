@@ -8,92 +8,94 @@
             <div class="row">
                 <div class="col-lg-11 offset-lg-1">
                     <h2 class="section-title">Skill-set</h2>
-                    <ul class="skill-set__list">
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/html.svg" alt="html">
-                            </figure>
-                            <p>HTML</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/css.svg" alt="css">
-                            </figure>
-                            <p>CSS</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/js.svg" alt="js">
-                            </figure>
-                            <p>Javascript</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/sass.svg" alt="sass">
-                            </figure>
-                            <p>SASS</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/figma.svg" alt="figma">
-                            </figure>
-                            <p>Figma</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/git.svg" alt="git">
-                            </figure>
-                            <p>Git</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/bootstrap.svg" alt="bootstrap">
-                            </figure>
-                            <p>Bootstrap</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/xd.svg" alt="xd">
-                            </figure>
-                            <p>XD</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/ps.svg" alt="ps">
-                            </figure>
-                            <p>Photoshop</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/react.svg" alt="react">
-                            </figure>
-                            <p>React</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/jira.svg" alt="jira">
-                            </figure>
-                            <p>Jira</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/tailwind.svg" alt="tailwind">
-                            </figure>
-                            <p>Tailwind</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/unity.svg" alt="unity">
-                            </figure>
-                            <p>Unity</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../../assets/images/icons/vue.svg" alt="vue">
-                            </figure>
-                            <p>Vue</p>
-                        </li>
-                    </ul>
+                    <div class="skill-set__list">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/html.svg" alt="html">
+                                </figure>
+                                <p>HTML</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/css.svg" alt="css">
+                                </figure>
+                                <p>CSS</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/js.svg" alt="js">
+                                </figure>
+                                <p>Javascript</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/sass.svg" alt="sass">
+                                </figure>
+                                <p>SASS</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/figma.svg" alt="figma">
+                                </figure>
+                                <p>Figma</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/git.svg" alt="git">
+                                </figure>
+                                <p>Git</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/bootstrap.svg" alt="bootstrap">
+                                </figure>
+                                <p>Bootstrap</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/xd.svg" alt="xd">
+                                </figure>
+                                <p>XD</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/ps.svg" alt="ps">
+                                </figure>
+                                <p>Photoshop</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/react.svg" alt="react">
+                                </figure>
+                                <p>React</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/jira.svg" alt="jira">
+                                </figure>
+                                <p>Jira</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/tailwind.svg" alt="tailwind">
+                                </figure>
+                                <p>Tailwind</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/unity.svg" alt="unity">
+                                </figure>
+                                <p>Unity</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="../../assets/images/icons/vue.svg" alt="vue">
+                                </figure>
+                                <p>Vue</p>
+                            </li>
+                        </ul>
+                    </div>
                     <ul class="skill-set__extra">
                         <li><strong>Accessibility</strong> (WCAG 2.1)</li>
                         <li><strong>Cross-browser</strong> testing</li>
