@@ -1,0 +1,26 @@
+.contact{
+    &__list{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__item{
+        a{
+            display: inline-flex;
+            flex-direction: row;
+            gap: 12px;
+            color: $white;
+            
+            i{
+                font-size: 20px;
+            }
+
+            p{
+                font-size: 18px;
+                @extend .red-underline;
+                text-underline-offset: 4px;
+            }
+        }
+    }
+}

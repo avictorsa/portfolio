@@ -1,5 +1,9 @@
 <script setup>
     defineProps({
+        url: {
+            type: String,
+            required: true
+        },
         imageSource: {
             type: String,
             required: true
@@ -21,7 +25,7 @@
 
 <template>
   <li class="recent-works__card">
-    <a href="#">
+    <a :href="url" target="_blank">
       <figure>
         <img :src="imageSource" alt="" />
       </figure>

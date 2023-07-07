@@ -2,16 +2,33 @@
     &__list{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 16px;
+        gap: 24px;
+
+        @media (max-width: $md) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: $sm) {
+            grid-template-columns: 1fr;
+        }
     }
     
     &__card{
         a{
-            padding: 16px;
             display: flex;
             flex-direction: column;
+            height: 100%;
+            padding: 16px;
             background-color: $primary-pale;
             border-radius: 8px;
+
+            &:hover{
+                figure{
+                    img{
+                        opacity: 1;
+                    }
+                }
+            }
 
             figure{
                 margin-bottom: 20px;
@@ -20,22 +37,23 @@
                     display: block;
                     aspect-ratio: 257/146;
                     object-fit: cover;
-                    object-position: center;
+                    object-position: top;
                     border-radius: 4px;
+                    opacity: 0.7;
                 }
             }
 
             .site-name{
                 color: $white;
                 font-weight: $fw-bold;
-                font-size: 16px;
+                font-size: 18px;
                 margin-bottom: 12px;
                 @extend .red-underline;
             }
 
             .site-description{
                 margin-bottom: 20px;
-                font-size: 15px;
+                font-size: 16px;
                 color: $primary-light;
             }
             
@@ -43,13 +61,14 @@
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
+                margin-top: auto;
                 padding-top: 14px;
                 border-top: 1px solid transparentize($primary-light, 0.8);
                 
                 li{
                     display: flex;
                     color: $primary-light;
-                    font-size: 12px;
+                    font-size: 14px;
                     padding-right: 8px;
                     
                     &:last-child{
@@ -64,7 +83,7 @@
                         height: 100%;
                         width: 1px;
                         margin-left: 8px;
-                        border-right: 1px solid transparentize($primary-light, 0.8);
+                        border-right: 1px solid transparentize($primary-light, 0.5);
                     }
                 }
             }

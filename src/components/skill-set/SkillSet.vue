@@ -97,7 +97,7 @@
                     <ul class="skill-set__extra">
                         <li><strong>Accessibility</strong> (WCAG 2.1)</li>
                         <li><strong>Cross-browser</strong> testing</li>
-                        <li>Experience as <strong>UX/UI</strong> designer</li>
+                        <li>Experience as a <strong>UI</strong> designer</li>
                         <li><strong>Responsive</strong> web design</li>
                         <li>Attentive to <strong>details</strong></li>
                     </ul>
