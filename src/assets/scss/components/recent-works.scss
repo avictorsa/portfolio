@@ -55,6 +55,11 @@
                 margin-bottom: 20px;
                 font-size: 16px;
                 color: $primary-light;
+
+                strong{
+                    color: #c1c3d5;
+                    font-weight: $fw-medium;
+                }
             }
             
             .tags{

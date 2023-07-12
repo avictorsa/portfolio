@@ -15,7 +15,7 @@
                                     <img src="../../assets/images/boligdugnaden.png" alt="Boligdugnaden site image" />
                                 </figure>
                                 <h4 class="site-name">boligdugnaden.no</h4>
-                                <p class="site-description">The "Norwegian Directorate for Building Quality" has launched this website To make it easier for private individuals to rent housing</p>
+                                <p class="site-description">The <strong>"Norwegian Directorate for Building Quality"</strong> has launched this website To make it easier for private individuals to rent housing</p>
                                 <ul class="tags">
                                     <li>Front-end dev.</li>
                                     <li>Enonic XP</li>
@@ -28,7 +28,7 @@
                                     <img src="../../assets/images/norwep.png" alt="Norwep site image" />
                                 </figure>
                                 <h4 class="site-name">norwep.no</h4>
-                                <p class="site-description">Norwegian Energy Partners (NORWEP) is an organization that supports and assists in the internationalization of the Norwegian energy industry</p>
+                                <p class="site-description"><strong>Norwegian Energy Partners (NORWEP)</strong> is an organization that supports and assists in the internationalization of the Norwegian energy industry</p>
                                 <ul class="tags">
                                     <li>Front-end dev.</li>
                                     <li>Enonic XP</li>
@@ -41,7 +41,7 @@
                                     <img src="../../assets/images/rederi.png" alt="Rederi site image" />
                                 </figure>
                                 <h4 class="site-name">rederi.no</h4>
-                                <p class="site-description">The "Norwegian Shipping Association" is the leading employer, contingency, and interest organization for Norwegian-affiliated shipping companies</p>
+                                <p class="site-description">The <strong>"Norwegian Shipping Association"</strong> is the leading employer, contingency, and interest organization for Norwegian-affiliated shipping companies</p>
                                 <ul class="tags">
                                     <li>Front-end dev.</li>
                                     <li>Optimizely</li>
@@ -67,7 +67,7 @@
                                     <img src="../../assets/images/ukom.png" alt="Ukom site image" />
                                 </figure>
                                 <h4 class="site-name">ukom.no</h4>
-                                <p class="site-description">The "Norwegian Healthcare Investigation Board" is a government agency. They investigate serious adverse events and other concerns involving the Norwegian healthcare services</p>
+                                <p class="site-description">The <strong>"Norwegian Healthcare Investigation Board"</strong> is a government agency that investigates serious adverse events and other concerns involving the Norwegian healthcare services</p>
                                 <ul class="tags">
                                     <li>Front-end dev.</li>
                                     <li>Enonic XP</li>
@@ -80,7 +80,7 @@
                                     <img src="../../assets/images/glava.png" alt="Glava site image" />
                                 </figure>
                                 <h4 class="site-name">glava.no</h4>
-                                <p class="site-description">Glava® is Norway's largest supplier of insulation products for heat insulation, sound insulation, and fire insulation</p>
+                                <p class="site-description"><strong>Glava</strong> is Norway's largest supplier of insulation products for heat insulation, sound insulation, and fire insulation</p>
                                 <ul class="tags">
                                     <li>Front-end updates</li>
                                     <li>Enonic XP</li>
@@ -106,7 +106,7 @@
                                     <img src="../../assets/images/gk.png" alt="GK site image" />
                                 </figure>
                                 <h4 class="site-name">gk.no</h4>
-                                <p class="site-description">GK is Scandinavia's leading technical contractor and service partner</p>
+                                <p class="site-description"><strong>GK</strong> is Scandinavia's leading technical contractor and service partner</p>
                                 <ul class="tags">
                                     <li>Front-end dev.</li>
                                     <li>Enonic XP</li>

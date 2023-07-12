@@ -6,7 +6,7 @@
     <section class="skill-set section" id="skillSet">
         <div class="container">
             <div class="row">
-                <div class="col-lg-11 offset-lg-1">
+                <div class="col-lg-10 offset-lg-1">
                     <h2 class="section-title">Skill-set</h2>
                     <div class="skill-set__list">
                         <ul>
@@ -70,12 +70,12 @@
                                 </figure>
                                 <p>React</p>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <figure>
                                     <img src="../../assets/images/icons/jira.svg" alt="jira">
                                 </figure>
                                 <p>Jira</p>
-                            </li>
+                            </li> -->
                             <li>
                                 <figure>
                                     <img src="../../assets/images/icons/tailwind.svg" alt="tailwind">
@@ -99,9 +99,9 @@
                     <ul class="skill-set__extra">
                         <li><strong>Accessibility</strong> (WCAG 2.1)</li>
                         <li><strong>Cross-browser</strong> testing</li>
-                        <li>Experience as a <strong>UI</strong> designer</li>
+                        <!-- <li>Experience as a <strong>UI</strong> designer</li> -->
                         <li><strong>Responsive</strong> web design</li>
-                        <li>Attentive to <strong>details</strong></li>
+                        <!-- <li>Attentive to <strong>details</strong></li> -->
                     </ul>
 
                     <h3 class="section-subtitle">Languages</h3>

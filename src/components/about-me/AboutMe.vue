@@ -12,8 +12,8 @@
                             <img src="../../assets/images/me.png" alt="A picture of me">
                         </figure>
                         <div class="about-me__content">
-                            <h1>Hello, I’m <br>a Front end Developer<span>.</span></h1>
-                            <p>From Brazil. Graduated in graphic design, specialized in front-end development. Working as a dev for <strong>6+ years</strong>. Creating mobile games on my free time.</p>
+                            <h1>Hello<span>.</span></h1>
+                            <p>I'm a Brazilian designer, specialized in front-end development. I've been working as a dev for <strong>6+ years</strong> delivering projects for private and government entities in Brazil, USA and Europe</p>
                         </div>
                     </div>
                 </div>
